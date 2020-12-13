@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Página de cadastro</title>
+      <link rel="stylesheet" href="/css/style.css">
+      <link rel="stylesheet" href="/css/form.css">
+  </head>
+  <body>
+    <header id="header-desktop">
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./login.html">Login</a>
+        <a href="./cadastro.html">Cadastro</a>
+      </nav>
+    </header>
+    <header id="header-mobile">
+      <img src="../assets/menu.png" alt="toggle" id="toggle">
+      <nav id="menu-content">
+        <a href="../index.html">Home</a>
+        <a href="./login.html">Login</a>
+        <a href="./cadastro.html">Cadastro</a>
+      </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <section class="form-section">
+      <h1>Cadastro</h1>
+    
+      <div class="form-wrapper">
+        <form action="">
+          <div class="input-block">
+            <label for="login-name">Nome</label>
+            <input type="text" id="login-name" />
+          </div>
+          <div class="input-block">
+              <label for="login-email">Email</label>
+              <input type="email" id="login-email" />
+          </div>
+          <div class="input-block">
+              <label for="login-login">Login</label>
+              <input type="text" id="login-login" />
+          </div>
+          <div class="input-block">
+            <label for="login-password">Password</label>
+            <input type="password" id="login-password" />
+          </div>
+          <button type="submit" class="btn-login">Cadastrar</button>
+        </form>
+      </div>
+    </section>
+    
+    <ul class="squares">
+      <li></li>
+    </ul>
+    <script src="../js/form.js"></script>
+    <script src="../js/menu.js"></script>
+  </body>
+</html>

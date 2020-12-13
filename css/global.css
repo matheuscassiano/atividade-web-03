@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul, li {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h2, h3 {
+    color: #5f38a1;
+}
+
+.content {
+    padding: 2em 5em;
+}
+
+.content img {
+    height: 25vh;
+    margin: 1em 0;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.content p {
+    padding: 1em 0;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.content a {
+    font-weight: 600;
+    color: #5f38a1;
+}
+
+@media (max-width: 960px) {
+    .content {
+        padding: 1.5em 3em;
+    }
+
+    .content img {
+        max-width: 100%;
+    }   
+}
